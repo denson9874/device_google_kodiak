@@ -61,11 +61,7 @@ PRODUCT_PACKAGE_OVERLAYS += device/google/kodiak/overlay-evolution
 # Evolution X
 WITH_GMS := true
 TARGET_HAS_UDFPS := true
-# Only ExpressiveOS's own animation (vendor/extra/bootanimation), not Evolution X's
-# other styles (about 190 MiB in /product/media). Product config reads this file
-# before the ones it inherits, so this wins over vendor/lineage's common.mk default
-# (?= true) for every build of this tree.
-TARGET_INCLUDE_BOOT_ANIMATIONS := false
+TARGET_INCLUDE_BOOT_ANIMATIONS := true
 TARGET_ENABLE_BLUR := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \

@@ -1,5 +1,7 @@
 # Pixel 11 Pro XL (kodiak) for Evolution X 17
 
+> **This tree is no longer updated.** The maintained kodiak tree is [ExpressiveOS/device_google_kodiak](https://github.com/ExpressiveOS/device_google_kodiak) (branch `expressiveos`). It has the Nov 7, 2026 recovery and fastbootd fix (without it, recovery and fastbootd hang on the G logo) and the current stock base. Build from that one. This copy stays as a read-only archive.
+
 Device tree for Google Pixel 11 Pro XL (`kodiak`, Tensor G6 `malibu`, GKI
 6.12), built from the stock factory image `CD1A.261005.003`.
 
